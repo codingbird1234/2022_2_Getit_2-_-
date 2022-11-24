@@ -10,9 +10,10 @@ korail.login()
 
 parts = urlparse("https://www.letskorail.com/ebizprd/EbizPrdTicketPr11131_i1.do?txtRunDt=20221123&txtDptDt=20221123&txtTrnNo=01005&txtTrnGpCd=101")
 
-dep='서울'
-arr='부산'
-print("출발일, 도착일, 기차번호, 기차종류, 날짜 순으로 입력하시오.")
+print("출발역, 도착역 순으로 입력하세요.")
+dep=str(input())
+arr=str(input())
+print("출발일, 도착일, 기차번호, 기차종류, 날짜 순으로 입력하세요.")
 txtRunDt=str(input())#'20221127'
 txtDptDt=str(input())#'20221127'
 txtTrnNo=str(input())#'00171'
