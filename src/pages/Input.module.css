@@ -1,0 +1,54 @@
+div div{
+  display:inline-block;
+  
+
+  margin: 0 auto;
+  font-size: 100px;
+  text-align: center;
+  width: 800px;
+ height: 60px;
+ background-color: #97d57a;
+ 
+ 
+ font-size: 30px;
+ padding: 2px;
+}
+
+
+
+div div  label{
+  border: 2px #101010;
+  background-color:#4b9461;
+  font-size: 35px;
+  margin-right: 15px;
+  
+
+
+}
+
+div div  input{
+  font-size: 37px;
+}
+
+div>div>p{
+  text-align: left;
+  font-size: 20px;
+  padding-bottom: 20px;
+  
+}
+
+
+div nav{
+ margin:0 auto;
+  /*width: 400px;
+  height: 30px;*/
+  background-color: #f7f5f8;
+  padding: 12px;
+  margin:0px;
+  font-size: 40px;
+
+}
+
+div{
+  padding-left: 385px;
+}
